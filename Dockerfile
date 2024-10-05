@@ -7,5 +7,5 @@ COPY . .
 
 RUN npm install
 
-
+RUN npm install --save-dev eslint-config-prettier
 
