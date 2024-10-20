@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "/globals.css";
 import { ReactNode } from "react";
+import getConfig from 'next/config';
 
-const inter = Inter({ subsets: ["latin"] });
+const { publicRuntimeConfig } = getConfig();
+const basePath = publicRuntimeConfig.basePath || '';
 
 type LayoutProps ={
   children: ReactNode;
@@ -31,7 +32,7 @@ function Header() {
     <header className="text-white p-4 text-2xl">
       <div className="flex gap-4 items-center">
       <a href="https://hectowatt.github.io/w477/" target="_blank" rel="noopener noreferrer">
-      <img src="/w477.png"></img></a>
+      <img src={`${basePath}/w477.png`}></img></a>
       <h1>w477 Blog</h1>
       </div>
     </header>
@@ -55,9 +56,9 @@ function Footer() {
       <p>w477 Powered by Next.js</p>
       <div className="flex gap-4 mi-t" >
       <a href="https://misskey.io/@sublimesab" target="_blank" rel="noopener noreferrer">
-      <img src="/MisskeyIcon.png" alt="Misskey" className="hover:opacity-80 transition-opacity duration-300"></img></a>
+      <img src={`${basePath}/MisskeyIcon.png`} alt="Misskey" className="hover:opacity-80 transition-opacity duration-300"></img></a>
       <a href="https://github.com/hectowatt" target="_blank" rel="noopener noreferrer">
-      <img src="/github.png" alt="Misskey" className="hover:opacity-80 transition-opacity duration-300"></img></a>
+      <img src={`${basePath}/github.png`} alt="Misskey" className="hover:opacity-80 transition-opacity duration-300"></img></a>
       </div>
     </footer>
   );
