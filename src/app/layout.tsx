@@ -28,8 +28,12 @@ export default function RootLayout({children } : LayoutProps){
 
 function Header() {
   return (
-    <header className="text-white p-4">
+    <header className="text-white p-4 text-2xl">
+      <div className="flex gap-4 items-center">
+      <a href="https://hectowatt.github.io/w477/" target="_blank" rel="noopener noreferrer">
+      <img src="/w477.png"></img></a>
       <h1>w477 Blog</h1>
+      </div>
     </header>
   );
 }
@@ -47,8 +51,8 @@ function Hero() {
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white p-4 mt-8">
-      <p>© 2024 w477 Powered by Next.js</p>
+    <footer className="text-black p-4 mt-8">
+      <p>w477 Powered by Next.js</p>
       <div className="flex gap-4 mi-t" >
       <a href="https://misskey.io/@sublimesab" target="_blank" rel="noopener noreferrer">
       <img src="/MisskeyIcon.png" alt="Misskey" className="hover:opacity-80 transition-opacity duration-300"></img></a>
