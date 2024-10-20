@@ -1,25 +1,25 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "/globals.css";
+import { ReactNode } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
+
+type LayoutProps ={
+  children: ReactNode;
+}
 
 export const metadata: Metadata = {
   title: "w477",
   description: "My blog by Next.js",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({children } : LayoutProps){
   return (
-    <html lang="ja">
-      <body className={inter.className}>
-        {children}
+    <html lang="ja" className="h-full">
+      <body className="h-full flex flex-col min-h-screen">
         <Header />
-        <Hero></Hero>
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>
@@ -48,7 +48,13 @@ function Hero() {
 function Footer() {
   return (
     <footer className="bg-gray-800 text-white p-4 mt-8">
-      <p>© 2024 w477</p>
+      <p>© 2024 w477 Powered by Next.js</p>
+      <div className="flex gap-4 mi-t" >
+      <a href="https://misskey.io/@sublimesab" target="_blank" rel="noopener noreferrer">
+      <img src="/MisskeyIcon.png" alt="Misskey" className="hover:opacity-80 transition-opacity duration-300"></img></a>
+      <a href="https://github.com/hectowatt" target="_blank" rel="noopener noreferrer">
+      <img src="/github.png" alt="Misskey" className="hover:opacity-80 transition-opacity duration-300"></img></a>
+      </div>
     </footer>
   );
 }
