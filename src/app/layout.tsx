@@ -20,11 +20,32 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: LayoutProps) {
+  const css = `
+    body {
+      background-image: url('${basePath}/haikei_scene.svg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .hero-image {
+      height: 300px;
+      background-image: url('${basePath}/hero-image.png');
+      background-repeat: repeat-x;
+      background-size: auto 100%;
+      background-position: center;
+    }
+  `;
+
   return (
     <html lang="ja" className="h-full">
+      <head>
+        <style>{`
+            dangerouslySetInnerHTML={{ __html: css }}
+        `}</style>
+      </head>
       <body className="h-full flex flex-col min-h-screen">
         <Header />
-        <Hero/>
+        <Hero />
         <main className="flex-grow">{children}</main>
         <Footer />
       </body>
@@ -50,10 +71,7 @@ function Header() {
 }
 
 function Hero() {
-  return (
-    <div className="hero-image">
-    </div>
-  );
+  return <div className="hero-image"></div>;
 }
 
 function Footer() {
