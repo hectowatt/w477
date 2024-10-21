@@ -7,6 +7,7 @@ const nextConfig = {
     basePath: isProd ? '/w477' : '',  // 本番環境だけ適用
     publicRuntimeConfig: {
         basePath: isProd ? '/w477' : '', // 同じbasePathを公開設定に含める
+        assetPrefix: isProd ? '/w477/' : '',
       },
     images: {
         unoptimized: true,

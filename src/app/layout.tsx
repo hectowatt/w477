@@ -20,21 +20,6 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: LayoutProps) {
-  const css = `
-    body {
-      background-image: url('${basePath}/haikei_scene.svg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-    .hero-image {
-      height: 300px;
-      background-image: url('${basePath}/hero-image.png');
-      background-repeat: repeat-x;
-      background-size: auto 100%;
-      background-position: center;
-    }
-  `;
 
   return (
     <html lang="ja" className="h-full">
