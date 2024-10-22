@@ -21,16 +21,21 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps) {
 
+  const bodyStyle = {
+    backgroundImage: `url(${basePath}/haikei_scene.svg)`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  };
+
   return (
     <html lang="ja" className="h-full">
       <head>
       <link rel="icon" href={`${basePath}/favicon.ico`} />
       <link rel="apple-touch-icon" href={`${basePath}/apple-touch-icon.png`} />
-        <style>{`
-            dangerouslySetInnerHTML={{ __html: css }}
-        `}</style>
+        <style>{`:root { --base-path: '${basePath}'; }`}</style>
       </head>
-      <body className="h-full flex flex-col min-h-screen">
+      <body className="h-full flex flex-col min-h-screen" style={bodyStyle}>
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />

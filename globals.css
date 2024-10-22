@@ -16,14 +16,6 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background-image: url('/haikei_scene.svg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
