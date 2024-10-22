@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   title: "w477",
   description: "My blog by Next.js",
   icons: {
-    icon: "/favicon.ico", // favicon.icoのパス
-    apple: "/apple-touch-icon.png", // Apple向けアイコン
+    icon: '${basePath}/favicon.ico', // favicon.icoのパス
+    apple: '${basePath}/apple-touch-icon.png', // Apple向けアイコン
   },
 };
 
@@ -24,13 +24,14 @@ export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="ja" className="h-full">
       <head>
+      <link rel="icon" href={`${basePath}/favicon.ico`} />
+      <link rel="apple-touch-icon" href={`${basePath}/apple-touch-icon.png`} />
         <style>{`
             dangerouslySetInnerHTML={{ __html: css }}
         `}</style>
       </head>
       <body className="h-full flex flex-col min-h-screen">
         <Header />
-        <Hero />
         <main className="flex-grow">{children}</main>
         <Footer />
       </body>
@@ -53,10 +54,6 @@ function Header() {
       </div>
     </header>
   );
-}
-
-function Hero() {
-  return <div className="hero-image"></div>;
 }
 
 function Footer() {
