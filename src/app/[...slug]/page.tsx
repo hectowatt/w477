@@ -1,6 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { remark } from 'remark';
+import html from 'remark-html';
+import '../globals.css';
 
 const postsDirectory = path.join(process.cwd(), 'src', 'posts');
 
@@ -29,24 +32,28 @@ export async function generateStaticParams() {
   });
 }
 
-// Markdownファイルからコンテンツを取得
-function getPostContent(slugArray: string[]) {
+// Markdownファイルからコンテンツを取得しHTMLに変換
+async function getPostContent(slugArray: string[]) {
   const filePath = path.join(postsDirectory, ...slugArray) + '.md';
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const { data, content } = matter(fileContents); // フロントマターと本文を分離
 
-  return { data, content };
+  // Markdown本文をHTMLに変換
+  const processedContent = await remark().use(html).process(content);
+  const contentHtml = processedContent.toString();
+
+  return { data, contentHtml };
 }
 
 // ページコンポーネント
-export default function Post({ params }: { params: { slug: string[] } }) {
-  const { data, content } = getPostContent(params.slug); // Markdownの読み込み
+export default async function Post({ params }: { params: { slug: string[] } }) {
+  const { data, contentHtml } = await getPostContent(params.slug); // Markdownの読み込みとHTML変換
 
   return (
-    <article>
+    <article className="prose lg:prose-xl mx-auto">
       <h1>{data.title}</h1>
-      <p>{data.date}</p>
-      <div>{content}</div>
+      <p className="text-sm text-gray-500">{data.date}</p>
+      <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
     </article>
   );
 }
