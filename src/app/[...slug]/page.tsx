@@ -28,6 +28,7 @@ export async function generateStaticParams() {
   return markdownFiles.map((filePath) => {
     const relativePath = path.relative(postsDirectory, filePath);
     const segments = relativePath.replace(/\.md$/, '').split(path.sep);
+    console.log(segments)
     return { slug: segments };
   });
 }
