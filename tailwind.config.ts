@@ -10,18 +10,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'custom-bg': "url('/haikei_scene.svg')",
+      colors: {
+        cream: '#fff9e6', // カスタムクリーム色
       },
       typography: (theme: (arg0: string) => any) => ({
         DEFAULT: {
           css: {
             h1: {
-              color: theme('colors.indigo.700'),
+              color: theme('colors.gray.600'),
               fontWeight: 'bold',
-              textDecoration: 'underline',
+              borderBottom: `10px solid ${theme('colors.gray.600')}`,
+              borderTop: `10px solid ${theme('colors.gray.600')}`,
+              padding: '0.5rem 0'
             },
             h2: {
               color: theme('colors.indigo.600'),

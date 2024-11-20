@@ -56,7 +56,7 @@ function getSortedPosts(): PostData[] {
   
     return (
       <main className="prose lg:prose-xl mx-auto">
-        <h1>Latest Posts</h1>
+        <h1>Posts</h1>
         <ul>
           {posts.map((post) => (
             <li key={post.slug}>

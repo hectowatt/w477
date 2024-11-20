@@ -24,3 +24,7 @@
     text-wrap: balance;
   }
 }
+
+body {
+  background-color: #fffacd; /* クリーム色 */
+}

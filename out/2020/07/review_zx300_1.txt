@@ -1,0 +1,38 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","2020/07/review_zx300_1","c"]
+0:["uQavlujf_rZud0Rqvr7FF",[[["",{"children":[["slug","2020/07/review_zx300_1","c"],{"children":["__PAGE__?{\"slug\":[\"2020\",\"07\",\"review_zx300_1\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","2020/07/review_zx300_1","c"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/w477/_next/static/css/c1e922638e4b7d8f.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"ja","className":"h-full","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/w477/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","href":"/w477/apple-touch-icon.png"}],["$","style",null,{"children":":root { --base-path: '/w477'; }"}],["$","meta",null,{"name":"google-site-verification","content":"HWHnOv44YHJ23JtvfwWQSQ83egNh3GvsAVcYHP5Ksf0"}]]}],["$","body",null,{"className":"h-full flex flex-col min-h-screen","children":[["$","header",null,{"className":"text-black p-4 text-2xl","children":["$","div",null,{"className":"flex gap-4 items-center","children":[["$","a",null,{"href":"https://hectowatt.github.io/w477/","target":"_blank","rel":"noopener noreferrer","children":["$","img",null,{"src":"/w477/w477.png"}]}],["$","h1",null,{"children":"w477 Blog"}]]}]}],["$","main",null,{"className":"flex-grow","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"text-black p-4 mt-8","children":[["$","p",null,{"children":"w477 Powered by Next.js"}],["$","div",null,{"className":"flex gap-4 mi-t","children":[["$","a",null,{"href":"https://misskey.io/@sublimesab","target":"_blank","rel":"noopener noreferrer","children":["$","img",null,{"src":"/w477/MisskeyIcon.png","alt":"Misskey","className":"hover:opacity-80 transition-opacity duration-300"}]}],["$","a",null,{"href":"https://github.com/hectowatt","target":"_blank","rel":"noopener noreferrer","children":["$","img",null,{"src":"/w477/github.png","alt":"Misskey","className":"hover:opacity-80 transition-opacity duration-300"}]}]]}]]}]]}]]}]],null],null],["$L6",null]]]]
+7:T15ba,<p>こんにちは</p>
+<p>w477です</p>
+<p>今回は発売から3年ほど経つSONY  ZX-300の紹介でもしようと思います。</p>
+<h3>これまでの環境について</h3>
+<p>私が初めてスマホとは別に音楽再生機器を購入したのは3年前の2017年、ウォークマンNW-A35でした。</p>
+<p>もともと音楽を聴くのが好きで以前からオーディオテクニカのATH-CKS990を持っていたのですが、再生機器も専用のものを買ったら今とは違う体験ができるのだろうかという疑問が浮かび、手ごろでハイレゾも試せるこのモデルを選びました。</p>
+<p>その後イヤホンにはダイナミックドライバーとBA（バランスドアーマチュア）ドライバーという2種類（現在は静電型や骨伝導などもっと種類があるようですが）の種類があると知り、それも試したくなってqdc 3SHに買い換えたり、イヤーピースの交換を試してみたりと音楽より機材のほうに夢中になっていましたね。</p>
+<p>その後A35を購入してから2年後の2019年、バランス接続を試してみたくなったのと、買い替えばかりするよりは一度満足できるものを買って長く愛用したいという思いからA35を売却し、ZX300にステップアップします。</p>
+<h3>なぜZX300か</h3>
+<p>バランス接続がしたい！というのが一番の動機なので当然それに対応している機種を選ぶのですが、バランス接続にもプラグ径が2.5ｍｍと4.4ｍｍの2種類あり、私は丈夫そうという理由で4.4ｍｍを選びました。</p>
+<p>2.5ｍｍ対応の機種に韓国のiriver Astell＆Kernという人気のメーカーがあり、デザインが一番好みだったので最初はAKにしようと思ったのですが、私は移動時にメインで使いたかったためバッテリー重視で他者と差をつけているZX300にしました。</p>
+<p>WM1Aと迷って、予算的にはWM1Aもぎりぎり手が出せそうだったのですがそこまで音質に差を感じなかった（もちろんWM1Aの方がすべてにおいて上だとは感じましたが、値段差ほどのものは感じませんでした）のと、持ち運びの面でZX300に決定。</p>
+<p>また、バランス接続のためにqdc2pinのLuminox Audio Kilowatt 4.4ｍｍも購入しました。</p>
+<p>ケーブルに関しては音質が変わるという話は信じていなかったため中古でそれなりにメジャーなものを選びました。</p>
+<p> これもいつか検証してみたいですね。今はまだ経済的に無理ですが。</p>
+<h3>使ってみて</h3>
+<p> まずは音質ですかね。</p>
+<p>正直アンバランスは前に使っていたNW-A35とほぼ変わらない印象でした。</p>
+<p>各所でも言われているように、このZX300の真髄はバランスにあります。</p>
+<p>語彙力皆無で申し訳ないのですが、アンバランスのときに左右どちらからも聞こえて重なっていた部分がきれいに分かれることで今まで埋もれていた細かい部分に気づける、みたいな印象です。</p>
+<p>ただ、慣れというのは怖いもので開封当初は感動したもののだんだん耳が慣れてきて、今までとのちがいはどこにあるんだろうと思うこともしばしば。</p>
+<p>どうやら私は音響機器にはこれ以上はまることはなさそうです。</p>
+<p>操作感としてはA35から一新されたUIと同じでそのままの感覚で使えます。面白いのは再生画面の表示方法をジャケ写から「スペクトラムアナライザー」、「アナログレベルメーター」、「デジタルピークメーター」の3種に変えられることで、視覚的にも音楽を楽しむ工夫が加えられています。</p>
+<p>他の中華系DAPやAKなどはジャケ写をバン！と大きく表示したり、デザイン自体が派手だったりとインパクトがある中で、ZX300はおとなしめなイメージでしたがシステムの面でこういった遊び心があるのは好印象ですね。下手にゴテゴテしていて不安定なものよりもシンプルかつ安定しているものの方が長く使うことを考えたら安心できます。</p>
+<p>あくまで音楽を聴くことが目的の機械ですからね。</p>
+<p>ちなみにケースは発売からだいぶ経っていて新品の在庫が少なくなっていたのですが、たまたまDignisのネイビーのケースを見つけたため速攻でポチりました。</p>
+<p>所有欲を満たされる外観で末永く使おうと思わせてくれます。</p>
+<h3>終わりに</h3>
+<p>総評としては「バランスを使ってみたくてかつ安定志向」な方にはおすすめの機種です。ZX300って某専門店だけでなく家電量販店でも並んでいることがそこそこ多いので、あまり他の人が知らないマニアックな機種がいい！という人はAKなど海外メーカーの方が満足感は高いかもです。</p>
+<p>私はこのZX300が壊れない限り買い替えに踏み切ることはなさそうです。音響機器って明確な優劣が見えにくいので俗にいう「沼」にはまりがちだと思うんですよね。そういう意味で私を満足させてくれた機種です。</p>
+<p>それでは。</p>
+2:["$","article",null,{"className":"prose lg:prose-xl mx-auto","children":[["$","h1",null,{"children":"いまさらSONY NW-ZX300のレビューでもしてみる"}],["$","p",null,{"className":"text-sm text-gray-500","children":"2020-07-28"}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"w477"}],["$","meta","3",{"name":"description","content":"My blog by Next.js"}],["$","link","4",{"rel":"icon","href":"$${basePath}/favicon.ico"}],["$","link","5",{"rel":"apple-touch-icon","href":"$${basePath}/apple-touch-icon.png"}]]
+1:null

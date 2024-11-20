@@ -20,14 +20,6 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: LayoutProps) {
-
-  const bodyStyle = {
-    backgroundImage: `url(${basePath}/haikei_scene.svg)`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-  };
-
   return (
     <html lang="ja" className="h-full">
       <head>
@@ -36,7 +28,7 @@ export default function RootLayout({ children }: LayoutProps) {
         <style>{`:root { --base-path: '${basePath}'; }`}</style>
         <meta name="google-site-verification" content="HWHnOv44YHJ23JtvfwWQSQ83egNh3GvsAVcYHP5Ksf0" />
       </head>
-      <body className="h-full flex flex-col min-h-screen" style={bodyStyle}>
+      <body className="h-full flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
