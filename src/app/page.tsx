@@ -1,6 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import getConfig from "next/config";
+
+const { publicRuntimeConfig } = getConfig();
+const basePath = publicRuntimeConfig.basePath || "";
 
 type PostData = {
   title: string;
@@ -60,7 +64,7 @@ function getSortedPosts(): PostData[] {
         <ul>
           {posts.map((post) => (
             <li key={post.slug}>
-              <a href={`/${post.slug}`}>{post.title}</a>
+              <a href={`${basePath}/${post.slug}`}>{post.title}</a>
               <p className="text-sm text-gray-500">{post.date}</p>
             </li>
           ))}
