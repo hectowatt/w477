@@ -43,10 +43,9 @@ function Header() {
       <div className="flex gap-4 items-center">
         <a
           href="https://hectowatt.github.io/w477/"
-          target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={`${basePath}/w477.png`}></img>
+          <img src={`${basePath}/w477.png`} alt="w477 Blog Icon"></img>
         </a>
         <h1>w477 Blog</h1>
       </div>
