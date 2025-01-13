@@ -6,14 +6,21 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     './src/posts/**/*.md', // マークダウンファイルも対象に
-    './src/**/*.{js,ts,jsx,tsx,md,mdx}', 
+    './src/**/*.{js,ts,jsx,tsx,md,mdx}',
   ],
   theme: {
     extend: {
       colors: {
         cream: '#fff9e6', // カスタムクリーム色
       },
-      typography: (theme: (arg0: string) => any) => ({
+      fontSize:
+      {
+        // ベースフォントサイズを小さくする
+        sm: '0.875rem', // 14px
+        base: '0.875rem', // 14px
+        lg: '1rem', // 16px
+      },
+        typography: (theme: (arg0: string) => any) => ({
         DEFAULT: {
           css: {
             h1: {
