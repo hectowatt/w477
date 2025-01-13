@@ -27,6 +27,7 @@ export default function RootLayout({ children }: LayoutProps) {
       <link rel="apple-touch-icon" href={`${basePath}/apple-touch-icon.png`} />
         <style>{`:root { --base-path: '${basePath}'; }`}</style>
         <meta name="google-site-verification" content="HWHnOv44YHJ23JtvfwWQSQ83egNh3GvsAVcYHP5Ksf0" />
+        <meta name="description" content="w477 Blog"></meta>
       </head>
       <body className="h-full flex flex-col min-h-screen">
         <Header />

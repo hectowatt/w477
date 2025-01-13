@@ -3,9 +3,14 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
+import { visit } from 'unist-util-visit';
 import '../globals.css';
+import getConfig from "next/config";
 
+const { publicRuntimeConfig } = getConfig();
 const postsDirectory = path.join(process.cwd(), 'src', 'posts');
+const basePath = publicRuntimeConfig.basePath || "";
+
 
 // 再帰的にMarkdownファイルを取得する関数
 function getAllMarkdownFiles(dirPath: string, arrayOfFiles: string[] = []) {
@@ -28,7 +33,6 @@ export async function generateStaticParams() {
   return markdownFiles.map((filePath) => {
     const relativePath = path.relative(postsDirectory, filePath);
     const segments = relativePath.replace(/\.md$/, '').split(path.sep);
-    console.log(segments)
     return { slug: segments };
   });
 }
@@ -37,10 +41,20 @@ export async function generateStaticParams() {
 async function getPostContent(slugArray: string[]) {
   const filePath = path.join(postsDirectory, ...slugArray) + '.md';
   const fileContents = fs.readFileSync(filePath, 'utf8');
-  const { data, content } = matter(fileContents); // フロントマターと本文を分離
+  const { data, content } = matter(fileContents);
 
-  // Markdown本文をHTMLに変換
-  const processedContent = await remark().use(html).process(content);
+  // Markdown本文をHTMLに変換しながら画像パスを修正
+  const processedContent = await remark()
+    .use(() => (tree) => {
+      visit(tree, 'image', (node: { url: string; }) => {
+        if (node.url.startsWith('/')) {
+          node.url = `${basePath}${node.url}`;
+        }
+      });
+    })
+    .use(html)
+    .process(content);
+
   const contentHtml = processedContent.toString();
 
   return { data, contentHtml };
