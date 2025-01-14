@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://hectowatt.github.io/w477
-
-# Sitemaps
-Sitemap: https://hectowatt.github.io/w477/sitemap.xml
