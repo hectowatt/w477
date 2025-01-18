@@ -70,7 +70,7 @@ let tableOfContents = ''; // 目次用変数
         }
       });
     })
-    .use(html)
+    .use(html, {sanitize: false})
     .process(content);
 
   const contentHtml = processedContent.toString();
