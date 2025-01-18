@@ -44,11 +44,29 @@ async function getPostContent(slugArray: string[]) {
   const { data, content } = matter(fileContents);
 
   // Markdown本文をHTMLに変換しながら画像パスを修正
+let tableOfContents = ''; // 目次用変数
   const processedContent = await remark()
     .use(() => (tree) => {
       visit(tree, 'image', (node: { url: string; }) => {
         if (node.url.startsWith('/')) {
           node.url = `${basePath}${node.url}`;
+        }
+      });
+
+      // 目次の生成
+      visit(tree, 'heading', (node) => {
+        if (node.depth === 3) { // ### の見出しを対象
+          const textNode = node.children.find((child) => child.type === 'text');
+          if (textNode) {
+            const headingText = textNode.value;
+            const id = headingText.toLowerCase().replace(/\s+/g, '-'); // IDを生成
+            tableOfContents += `<li><a href="#${id}">${headingText}</a></li>`;
+            node.data = {
+              hProperties: {
+                id,
+              },
+            };
+          }
         }
       });
     })
@@ -57,17 +75,27 @@ async function getPostContent(slugArray: string[]) {
 
   const contentHtml = processedContent.toString();
 
-  return { data, contentHtml };
+  return { data, contentHtml, tableOfContents: `<ul>${tableOfContents}</ul>` };
 }
 
 // ページコンポーネント
 export default async function Post({ params }: { params: { slug: string[] } }) {
-  const { data, contentHtml } = await getPostContent(params.slug); // Markdownの読み込みとHTML変換
+  const { data, contentHtml, tableOfContents } = await getPostContent(params.slug);
 
   return (
     <article className="prose lg:prose-xl mx-auto">
       <h1>{data.title}</h1>
       <p className="text-sm text-gray-500">{data.date}</p>
+      
+      {/* 目次 */}
+      {tableOfContents && (
+        <div className="toc">
+          <h2>目次</h2>
+          <div dangerouslySetInnerHTML={{ __html: tableOfContents }} />
+        </div>
+      )}
+
+      {/* 本文 */}
       <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
     </article>
   );

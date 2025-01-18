@@ -56,7 +56,7 @@ function Header() {
 
 function Footer() {
   return (
-    <footer className="text-black p-4 mt-8">
+    <footer style={{backgroundColor: "var(--footer-bg)"}} className="text-black p-4 mt-8">
       <p>w477 Powered by Next.js</p>
       <div className="flex gap-4 mi-t">
         <a
@@ -77,7 +77,7 @@ function Footer() {
         >
           <img
             src={`${basePath}/github.png`}
-            alt="Misskey"
+            alt="Github"
             className="hover:opacity-80 transition-opacity duration-300"
           ></img>
         </a>
