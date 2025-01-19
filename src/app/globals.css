@@ -28,6 +28,7 @@
 
 body {
   background-color: #ffffe0; /* クリーム色 */
+  font-family: 'Inter', sans-serif;
 }
 
 .toc {
@@ -61,4 +62,9 @@ body {
 
 .toc a:hover {
   text-decoration: underline;
+}
+
+aside {
+  background-color: #ffffe0;
+  border-radius: 8px;
 }
