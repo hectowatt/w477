@@ -36,12 +36,12 @@ export default function RootLayout({ children }: LayoutProps) {
         {/* メインコンテンツとサイドバーを横並び */}
         <div className="flex flex-grow max-w-screen-lg mx-auto px-4 gap-4">
           {/* サイドバー（プロフィールカード） */}
-          <aside className="w-1/4">
+          <aside className="hidden lg:block w-1/4">
             <ProfileCard />
           </aside>
 
           {/* メインコンテンツ */}
-          <main className="p-4 w-3/4">{children}</main>
+          <main className="w-full lg:w-3/4 p-4">{children}</main>
         </div>
 
         <Footer />
