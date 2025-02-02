@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: { params: { slug: string[] } 
 
   return {
     title: post ? post.title : "w477 Blog", // 記事タイトル or デフォルト
-    description: post ? `ブログ記事: ${post.title}` : "My blog by SSG",
+    description: post ? `${post.title}` : "My blog by SSG",
   };
 }
 
