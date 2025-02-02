@@ -41,7 +41,7 @@ export default function RootLayout({ children }: LayoutProps) {
           </aside>
 
           {/* メインコンテンツ */}
-          <main className="w-full lg:w-3/4 p-4">{children}</main>
+          <main className="w-full lg:w-3/4 p-4 flex-grow">{children}</main>
         </div>
 
         <Footer />
@@ -109,7 +109,7 @@ function Footer() {
 
 function ProfileCard() {
   return (
-    <aside className="max-w-xs mx-auto p-2">
+    <aside className="max-w-md mx-auto p-2 w-full">
       <div >
         {/* プロフィール画像 */}
         <div className="relative w-14 h-14 mx-auto mb-4">
@@ -123,15 +123,15 @@ function ProfileCard() {
         </div>
 
         {/* 名前 */}
-        <h2 className="text-xl font-bold mb-4">w477</h2>
+        <h2 className="text-2xl font-bold mb-4">w477</h2>
 
         {/* 居住地 */}
         <div className="flex items-center gap-2 text-sm text-gray-600 mb-4">
           <Image
             src={`${basePath}/home.png`}
             alt="home icon"
-            width={20}
-            height={20}
+            width={24}
+            height={24}
           />
           <span>Japan</span>
         </div>
@@ -141,8 +141,8 @@ function ProfileCard() {
           <Image
             src={`${basePath}/work.png`}
             alt="work icon"
-            width={20}
-            height={20}
+            width={24}
+            height={24}
           />
           <span>Software Engineer</span>
         </div>
@@ -153,8 +153,8 @@ function ProfileCard() {
             <Image
               src={`${basePath}/misskey_mono.svg`}
               alt="Misskey icon"
-              width={20}
-              height={20}
+              width={24}
+              height={24}
             />
             <a
               href="https://misskey.io/@sublimesab"
@@ -169,8 +169,8 @@ function ProfileCard() {
             <Image
               src={`${basePath}/github-mark.png`}
               alt="GitHub icon"
-              width={20}
-              height={20}
+              width={24}
+              height={24}
             />
             <a
               href="https://github.com/hectowatt"
