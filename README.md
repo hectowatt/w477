@@ -1,1 +1,1 @@
-My blog by Next.js
+My blog by SSG
