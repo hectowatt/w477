@@ -6,11 +6,27 @@ import html from 'remark-html';
 import { visit } from 'unist-util-visit';
 import '../globals.css';
 import getConfig from "next/config";
+import { Metadata } from "next";
 
 const { publicRuntimeConfig } = getConfig();
 const postsDirectory = path.join(process.cwd(), 'src', 'posts');
 const basePath = publicRuntimeConfig.basePath || "";
 
+// 記事のパスを取得
+function getSortedPosts() {
+  const markdownFiles = getAllMarkdownFiles(postsDirectory);
+
+  return markdownFiles.map((filePath) => {
+    const fileContents = fs.readFileSync(filePath, "utf8");
+    const { data } = matter(fileContents);
+
+    return {
+      title: data.title || "Untitled",
+      date: data.date || "Unknown date",
+      slug: path.relative(postsDirectory, filePath).replace(/\\/g, "/").replace(/\.md$/, ""),
+    };
+  });
+}
 
 // 再帰的にMarkdownファイルを取得する関数
 function getAllMarkdownFiles(dirPath: string, arrayOfFiles: string[] = []) {
@@ -24,6 +40,18 @@ function getAllMarkdownFiles(dirPath: string, arrayOfFiles: string[] = []) {
     }
   });
   return arrayOfFiles;
+}
+
+// 記事ごとのメタデータを設定
+export async function generateMetadata({ params }: { params: { slug: string[] } }): Promise<Metadata> {
+  const slugPath = params.slug.join("/"); // 例: "2021/01/my-post"
+  const posts = getSortedPosts();
+  const post = posts.find((p) => p.slug === slugPath);
+
+  return {
+    title: post ? post.title : "w477 Blog", // 記事タイトル or デフォルト
+    description: post ? `ブログ記事: ${post.title}` : "My blog by SSG",
+  };
 }
 
 // 静的パスを生成
