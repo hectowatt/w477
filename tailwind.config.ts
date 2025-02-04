@@ -31,8 +31,8 @@ const config: Config = {
               padding: '0.5rem 0'
             },
             h2: {
-              color: theme('colors.indigo.600'),
-              fontWeight: '600',
+              color: theme('colors.gray.300'),
+              fontWeight: '400',
             },
             a: {
               color: theme('colors.blue.500'),
