@@ -11,8 +11,6 @@ module.exports = {
     return {
       loc: path, // URL
       lastmod: new Date().toISOString(),
-      changefreq: 'weekly',
-      priority: 0.7,
     };
   }
 };
