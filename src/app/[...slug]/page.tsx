@@ -16,16 +16,19 @@ const basePath = publicRuntimeConfig.basePath || "";
 function getSortedPosts() {
   const markdownFiles = getAllMarkdownFiles(postsDirectory);
 
-  return markdownFiles.map((filePath) => {
+  return markdownFiles
+    .map((filePath) => {
     const fileContents = fs.readFileSync(filePath, "utf8");
     const { data } = matter(fileContents);
 
     return {
-      title: data.title || "Untitled",
+      title: data.title + " - w477"|| "Untitled",
       date: data.date || "Unknown date",
       slug: path.relative(postsDirectory, filePath).replace(/\\/g, "/").replace(/\.md$/, ""),
+        draft: data.draft || false, // draft フィールドを追加
     };
-  });
+    })
+    .filter((post) => !post.draft); // draft: true の記事を除外
 }
 
 // 再帰的にMarkdownファイルを取得する関数
@@ -42,27 +45,29 @@ function getAllMarkdownFiles(dirPath: string, arrayOfFiles: string[] = []) {
   return arrayOfFiles;
 }
 
-// 記事ごとのメタデータを設定
+// 記事ごとのメタデータを設定（draft: true の記事は設定しない）
 export async function generateMetadata({ params }: { params: { slug: string[] } }): Promise<Metadata> {
   const slugPath = params.slug.join("/"); // 例: "2021/01/my-post"
   const posts = getSortedPosts();
   const post = posts.find((p) => p.slug === slugPath);
 
+  if (!post) {
+    return { title: "記事が見つかりません" };
+  }
+
   return {
-    title: post ? post.title : "w477 Blog", // 記事タイトル or デフォルト
-    description: post ? `${post.title}` : "My blog by SSG",
+    title: post.title,
+    description: `${post.title}`,
   };
 }
 
-// 静的パスを生成
+// 静的パスを生成（draft: true の記事を除外）
 export async function generateStaticParams() {
-  const markdownFiles = getAllMarkdownFiles(postsDirectory);
+  const posts = getSortedPosts();
 
-  return markdownFiles.map((filePath) => {
-    const relativePath = path.relative(postsDirectory, filePath);
-    const segments = relativePath.replace(/\.md$/, '').split(path.sep);
-    return { slug: segments };
-  });
+  return posts.map((post) => ({
+    slug: post.slug.split("/"),
+  }));
 }
 
 // Markdownファイルからコンテンツを取得しHTMLに変換
@@ -70,6 +75,11 @@ async function getPostContent(slugArray: string[]) {
   const filePath = path.join(postsDirectory, ...slugArray) + '.md';
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const { data, content } = matter(fileContents);
+
+  // draft: true の記事はエラーを返す（ISRなどで生成されないように）
+  if (data.draft) {
+    throw new Error("このページは公開されていません。");
+  }
 
   // Markdown本文をHTMLに変換しながら画像パスを修正
 let tableOfContents = ''; // 目次用変数
@@ -98,7 +108,7 @@ let tableOfContents = ''; // 目次用変数
         }
       });
     })
-    .use(html, {sanitize: false})
+    .use(html, { sanitize: false })
     .process(content);
 
   const contentHtml = processedContent.toString();
@@ -108,6 +118,7 @@ let tableOfContents = ''; // 目次用変数
 
 // ページコンポーネント
 export default async function Post({ params }: { params: { slug: string[] } }) {
+  try {
   const { data, contentHtml, tableOfContents } = await getPostContent(params.slug);
 
   return (
@@ -127,4 +138,7 @@ export default async function Post({ params }: { params: { slug: string[] } }) {
       <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
     </article>
   );
+  } catch (error) {
+    return <p className="text-center text-gray-500">この記事は公開されていません。</p>;
+  }
 }

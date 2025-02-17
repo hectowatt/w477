@@ -10,6 +10,7 @@ type PostData = {
   title: string;
   date: string;
   slug: string;
+  draft: boolean;
 };
 
 const postsDirectory = path.join(process.cwd(), 'src', 'posts');
@@ -46,11 +47,12 @@ function getSortedPosts(): PostData[] {
       slug: filePath
         .replace(postsDirectory + path.sep, '')
         .replace(/\.md$/, ''),
+      draft: data.draft || false,
     };
   });
 
   // 日付でソート（降順）
-  return allPosts.sort((a, b) => (a.date < b.date ? 1 : -1));
+  return allPosts.filter((post) => !post.draft).sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
   
