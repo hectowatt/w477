@@ -35,10 +35,6 @@ export default function RootLayout({ children }: LayoutProps) {
 
         {/* メインコンテンツとサイドバーを横並び */}
         <div className="flex flex-grow max-w-screen-lg mx-auto px-4 gap-4">
-          {/* サイドバー（プロフィールカード） */}
-          <aside className="hidden lg:block w-1/4">
-            <ProfileCard />
-          </aside>
 
           {/* メインコンテンツ */}
           <main className="w-full lg:w-3/4 p-4 flex-grow">{children}</main>
@@ -105,85 +101,3 @@ function Footer() {
     </footer>
   );
 }
-
-
-function ProfileCard() {
-  return (
-    <aside className="max-w-md mx-auto p-2 w-full">
-      <div >
-        {/* プロフィール画像 */}
-        <div className="relative w-14 h-14 mx-auto mb-4">
-          <Image
-            src={`${basePath}/w477.png`}
-            alt="w477 icon"
-            layout="fill"
-            objectFit="cover"
-            className="rounded-full"
-          />
-        </div>
-
-        {/* 名前 */}
-        <h2 className="text-2xl font-bold mb-4">w477</h2>
-
-        {/* 居住地 */}
-        <div className="flex items-center gap-2 text-sm text-gray-600 mb-4">
-          <Image
-            src={`${basePath}/home.png`}
-            alt="home icon"
-            width={24}
-            height={24}
-          />
-          <span>Japan</span>
-        </div>
-
-        {/* 職業 */}
-        <div className="flex items-center gap-2 text-sm text-gray-600 mb-4">
-          <Image
-            src={`${basePath}/work.png`}
-            alt="work icon"
-            width={24}
-            height={24}
-          />
-          <span>Software Engineer</span>
-        </div>
-
-        {/* SNS リンク */}
-        <ul className="space-y-2 text-sm text-gray-600">
-          <li className="flex items-center gap-2">
-            <Image
-              src={`${basePath}/misskey_mono.svg`}
-              alt="Misskey icon"
-              width={24}
-              height={24}
-            />
-            <a
-              href="https://misskey.io/@sublimesab"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-800 hover:text-black"
-            >
-              Misskey
-            </a>
-          </li>
-          <li className="flex items-center gap-2">
-            <Image
-              src={`${basePath}/github-mark.png`}
-              alt="GitHub icon"
-              width={24}
-              height={24}
-            />
-            <a
-              href="https://github.com/hectowatt"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-800 hover:text-black"
-            >
-              GitHub
-            </a>
-          </li>
-        </ul>
-      </div>
-    </aside>
-  );
-}
-
