@@ -6,10 +6,10 @@ const nextConfig = {
     output: "export",
     basePath: isProd ? '/w477' : '',  // 本番環境だけ適用
     trailingSlash: true, // URL に末尾のスラッシュを追加
-    assetPrefix: isProd ? '/w477/' : '',
+    assetPrefix: isProd ? '/w477' : '',
     publicRuntimeConfig: {
         basePath: isProd ? '/w477' : '', // 同じbasePathを公開設定に含める
-      },
+    },
     images: {
         unoptimized: true,
     }
