@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap && mkdir -p out/w477 && cp out/favicon.ico out/w477/ && cp out/robots.txt out/w477/ && cp out/sitemap.xml out/w477/"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.15",
