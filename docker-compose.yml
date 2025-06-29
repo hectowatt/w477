@@ -9,4 +9,4 @@ services:
       - /app/node_modules
     environment:
       - WATCHPACK_POLLING=true
-    command: sh -c "npm run build | npm run dev"
+    command: sleep infinity
