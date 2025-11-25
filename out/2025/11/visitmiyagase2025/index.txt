@@ -1,0 +1,117 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","2025/11/visitmiyagase2025","c"]
+0:["uRDCw3KC9_YJ5jUYlMDzB",[[["",{"children":[["slug","2025/11/visitmiyagase2025","c"],{"children":["__PAGE__?{\"slug\":[\"2025\",\"11\",\"visitmiyagase2025\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","2025/11/visitmiyagase2025","c"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/w477/_next/static/css/8b02746582b79b89.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"ja","className":"h-full","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/w477/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","href":"/w477/apple-touch-icon.png"}],["$","style",null,{"children":":root { --base-path: '/w477'; }"}],["$","meta",null,{"name":"google-site-verification","content":"HWHnOv44YHJ23JtvfwWQSQ83egNh3GvsAVcYHP5Ksf0"}],["$","meta",null,{"name":"description","content":"w477 Blog"}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","header",null,{"className":"text-black p-4 text-2xl border-b border-yellow","children":["$","div",null,{"className":"flex gap-4 items-center max-w-screen-lg mx-auto ","children":[["$","a",null,{"href":"https://hectowatt.github.io/w477/","rel":"noopener noreferrer","children":["$","img",null,{"src":"/w477/w477.png","alt":"w477 Blog Icon"}]}],["$","h1",null,{"children":"w477 Blog"}]]}]}],["$","div",null,{"className":"flex flex-grow max-w-screen-lg mx-auto px-4 gap-4","children":["$","main",null,{"className":"w-full lg:w-3/4 p-4 flex-grow","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}],["$","footer",null,{"style":{"backgroundColor":"var(--footer-bg)"},"className":"text-black p-4 mt-8","children":["$","div",null,{"className":"max-w-screen-lg mx-auto","children":[["$","p",null,{"children":"©w477 Powered by Next.js"}],["$","div",null,{"className":"flex gap-4","children":[["$","a",null,{"href":"https://misskey.io/@sublimesab","target":"_blank","rel":"noopener noreferrer","children":["$","img",null,{"src":"/w477/MisskeyIcon.png","alt":"Misskey","className":"hover:opacity-80 transition-opacity duration-300"}]}],["$","a",null,{"href":"https://github.com/hectowatt","target":"_blank","rel":"noopener noreferrer","children":["$","img",null,{"src":"/w477/github.png","alt":"Github","className":"hover:opacity-80 transition-opacity duration-300"}]}]]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+7:T2c97,<p>こんにちは</p>
+<p>w477です</p>
+<p>今回は神奈川県の宮ケ瀬地域へ観光に行ってきたので記事に起こそうと思います</p>
+<h3 id="探訪理由">探訪理由</h3>
+<p>宮ケ瀬に行こうと思った理由は3つあります</p>
+<ol>
+<li>宮ヶ瀬ダムを見たかったから</li>
+<li>相模湖、津久井湖、宮ヶ瀬湖を制覇したかったから</li>
+<li>紅葉</li>
+</ol>
+<p>1については宮ヶ瀬ダムは国内でもトップレベルの大きさを誇るダムで、しかもそのダムの上に登れるということでぜひ行ってみたいと思っていました。</p>
+<p>2については神奈川県内の都心近郊から公共交通機関で行ける範囲の観光地をめぐりたいと思っていて、その中でダムや湖となるとGoogleマップで確認したなかでは相模湖、津久井湖、宮ヶ瀬湖の3つが主要そうでした。</p>
+<p>去年の相模湖から始まり津久井湖まで訪問して残すは宮ヶ瀬湖のみとなっていたので、秋も深まって外出もしやすくなってきたし、紅葉も兼ねて決行に至りました。</p>
+<h3 id="宮ケ瀬まで">宮ケ瀬まで</h3>
+<p>宮ケ瀬まで行くルートはいくつかあるのですが、最終的にはバスを使うことになりそのバスが1時間に一本くらいのレベルでした。</p>
+<p>出発する準備が整った段階でちょうどバスを拾えそうなのが本厚木から宮ケ瀬湖畔園地へ向かうルートだったので、まずは本厚木駅へ行くことに。</p>
+<p>本厚木へ行くのは初めてでしたが、駅前は繁華街といった感じで食事にも困らなさそうでした。</p>
+<p>ただ、バスが来る時間が以外と近かったため、駅到着後すぐにバス停へ。</p>
+<p>バスに乗ってから気づきましたが、本厚木から出ているバスの終点が宮ケ瀬なんですね。</p>
+<p>思ったより遠いところにあるんだなと思いました。</p>
+<p>1時間ほど揺られて宮ケ瀬に到着。</p>
+<p><img src="/w477/images/2025/11/visitmiyagase2025/IMG_1693.JPG" alt="宮ケ瀬バス停"></p>
+<h3 id="湖畔園地">湖畔園地</h3>
+<p>宮ケ瀬のバス停に降りてから北へ5分ほど歩くとレストランや売店が連なる商店街が見えます。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1694.JPG" alt="商店街"></p>
+<p>そばの他にダムのある地域では定番といっていいダムカレーも提供されているようでした。</p>
+<p>ただ、このときすでに14時近くを回っていたため人の入りはそれほどでもなかったです。</p>
+<p>さらに北へ進むと湖畔園地が見えてきます。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1695.JPG" alt="湖畔園地"></p>
+<p>この日は平日だったので昼間にもかかわらず人は少なめでしたが、広々とした平原で遊ぶにはもってこいですね。</p>
+<p>奥側に水の郷大吊り橋という大きな吊り橋があるので行ってみます。</p>
+<p><img src="/w477/images/2025/11/visitmiyagase2025/IMG_1696.JPG" alt="水の郷大吊り橋"></p>
+<p>柵にはおそらくイルミネーションになるであろう飾り付けがされており、暗くなったらきっときれいでしょうね。</p>
+<p><img src="/w477/images/2025/11/visitmiyagase2025/IMG_1699.JPG" alt="吊り橋上から"></p>
+<p>高所恐怖症なのであまり下は覗き込めませんでしたが、吊り橋といってもそこまで揺れることはなく楽しめました。</p>
+<p>園内からは赤や黄色に色づいた遠くの山々が見えます。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1703.JPG" alt="山々"></p>
+<p>都会の喧騒から離れてとてもゆっくりとした時間が流れていました。</p>
+<p>園内を見て回ったので次は鳥居原園地へ向かいます。</p>
+<h3 id="鳥居原園地">鳥居原園地</h3>
+<p>今回の最終目的地は宮ヶ瀬ダムで、湖畔園地から北上して歩きつつ途中の鳥居原園地へ寄りました。</p>
+<p>道中虹の大橋という橋がありましたが、さっき渡った吊り橋と比べると普通の道路とあまり変わらず肩透かしをくらいました。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1705.JPG" alt="虹の大橋"></p>
+<p>歩くこと20分、鳥居原園地へ到着です。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1716.JPG" alt="鳥居原園地"></p>
+<p>鳥居原園地には宮ヶ瀬湖を見渡せました。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1707.JPG" alt="宮ヶ瀬湖展望"></p>
+<p>右手遠くに見える橋がおそらくさっき渡ってきた虹の大橋ですね。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1708.JPG" alt="遠くに見える虹の大橋"></p>
+<p>こうしてみるとたしかに大橋と名前がついてもおかしくないほどの大きさですね。</p>
+<p>渡っているときと遠くから見る時でこんなに印象が変わるんですね。</p>
+<p>園内の先には展望台があり、宮ヶ瀬湖をより近くで見ることができました。</p>
+<p>展望台から戻ろうと振り返るときれいに赤く染まった植え込みがありました。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1712.JPG" alt="遠くに見える虹の大橋"></p>
+<p>青空とのコントラストがいいですね</p>
+<p>さて、日が暮れる前に宮ヶ瀬ダムへ向かいます。</p>
+<h3 id="宮ヶ瀬ダムまで">宮ヶ瀬ダムまで</h3>
+<p>鳥居原園地から宮ヶ瀬ダムまで徒歩で行く予定でしたが、ここから苦しい戦いになりました。</p>
+<p>なぜなら道中いくつものトンネルを徒歩で通らなければならず、道中は山道でほとんどなにもないからです。</p>
+<p>車で来れば無問題でしたが、あいにく今回は徒歩。
+それに加えてGoogleマップだけ見て徒歩で行けそうだなーとのんきに考えていました。</p>
+<p>ただでさえ徒歩でトンネルを渡っている人なんて私くらいしかいかなかったのに、トンネル内はところどころ節電のためか明かりが消えており、スマホのライトを頼りに時折来る車のエンジンの爆音に怯えながらなんとかくぐり抜けました。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1720.JPG" alt="トンネル怖すぎ"></p>
+<p>写真だと明るく写っていますが、実際はホラー映画にも出てきそうな雰囲気でした。</p>
+<p>また、道中に6月からずっと放置され続けている謎の事故車？があり、なおさら怖かったですね。</p>
+<p>日も短くなっているので、急がなければ真っ暗な山の中に一人ぼっちになってしまいます。</p>
+<p>急ぎ足で進み、どうにか宮ヶ瀬ダムのある県立あいかわ公園に辿り着きました。</p>
+<p>このときすでに16時をまわっており、園内では〇〇の営業は終了しました〜と次第に店じまいを始めています。</p>
+<p>猛ダッシュでダムへのエレベータがあるエリアへ向かいます。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1725.JPG" alt="ダムゲート"></p>
+<p>ダムへ続く道は17:30までは開いているようです。
+ただ、隣に</p>
+<p><img src="/w477/images/2025/11/visitmiyagase2025/IMG_1726.JPG" alt="クマ注意"></p>
+<p>怖いことが書いてありました。</p>
+<p>たしかに今年はクマ被害が頻繁にニュースになっていて出てきてもおかしくない程度の山中ではありますが、目撃情報があると言われると俄然不安が高まります。</p>
+<p>しかし、目の前まで来てダムを背に引き返すことなどできません。</p>
+<p>ダッシュでいけば大丈夫やろと謎の理由で突っ走ります。</p>
+<h3 id="ダム到着">ダム到着</h3>
+<p><img src="/w477/images/2025/11/visitmiyagase2025/IMG_1727.JPG" alt="ダム到着">
+着きました！</p>
+<p>途中係員であろうおじさんにもうすぐ閉まっちゃうから急いだほうがいいとアドバイスをもらい、ダッシュでエレベータへ向かいます。</p>
+<p><img src="/w477/images/2025/11/visitmiyagase2025/IMG_1729.JPG" alt="宮ヶ瀬ダム"></p>
+<p>眼の前にしてみるとめちゃくちゃでかいですね。
+国内トップレベルというのも頷けます。</p>
+<p>ダム上までは無料のエレベータか、400円のインクラインで行くことができ、インクラインの最終便がもうすぐ出発するところでした。</p>
+<p>せっかくなのでインクラインへ乗り込みます。</p>
+<p>乗車券を急いで買ってたらこれまた係員のおじさんがこんなギリギリの時間に客が来るとは...みたいな感じで困惑してましたｗ忙しなくてごめんなさい</p>
+<p>インクラインでゆっくり登っていき、ダム上へ向かいます。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1732.JPG" alt="ダム上"></p>
+<p>ダム上は広場になっていました。もうだいぶ暗くなってしまっています。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1735.JPG" alt="広場"></p>
+<p>水の郷の吊橋のときはまだ平気でしたが、ダム上から覗く外界は怖すぎて手汗がひどかったです。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1731.JPG" alt="ダム湖面"></p>
+<p>こんなに明るくなかったのにスマホが補正をかけて昼間みたいな明るさになってますｗ</p>
+<p>無料のエレベータも17:15に閉まるということなので、さくっと景色を眺めて下ります。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1738.JPG" alt="エレベータ前"></p>
+<p>エレベータはいかにも構内といった感じで物々しい雰囲気でした。</p>
+<p>エレベータから外への通路にはダムに関する説明書きがところどころ掲げてあり、この通路含めて様々な保守用経路が張り巡らされているようです。</p>
+<p>あいかわ公園も17時閉園なので、足早に帰路へつきました。</p>
+<p>道中、とくに後半が忙しすぎてほぼなにも食べずに動き回っていたのでクタクタです。</p>
+<p>帰りは本厚木駅のラーメン屋でカロリー補給をして家へ帰りました。
+<img src="/w477/images/2025/11/visitmiyagase2025/IMG_1740.JPG" alt="エレベータ前"></p>
+<h3 id="おわりに">おわりに</h3>
+<p>今回は宮ケ瀬探訪について書きました。</p>
+<p>かなり忙しく、途中怖い思いもしましたが目標だった宮ヶ瀬湖と宮ヶ瀬ダムへ訪れることができて、なんだかんだいい思い出になっています。</p>
+<p>ただ、徒歩でいくようなコースではありませんでした...</p>
+<p>もし宮ケ瀬へ行きたい人がいれば車でいくことを強くおすすめしますね。</p>
+<p>これで相模湖、津久井湖、宮ヶ瀬湖を制覇することができました。</p>
+<p>ここまで読んでいただきありがとうございました！</p>
+<p>次はどこへ行こうかなぁ</p>
+2:["$","article",null,{"className":"prose lg:prose-xl mx-auto","children":[["$","h1",null,{"children":"宮ヶ瀬探訪"}],["$","p",null,{"className":"text-sm text-gray-500","children":"2025-11-25"}],["$","div",null,{"className":"toc","children":[["$","h2",null,{"children":"目次"}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<ul><li><a href=\"#探訪理由\">探訪理由</a></li><li><a href=\"#宮ケ瀬まで\">宮ケ瀬まで</a></li><li><a href=\"#湖畔園地\">湖畔園地</a></li><li><a href=\"#鳥居原園地\">鳥居原園地</a></li><li><a href=\"#宮ヶ瀬ダムまで\">宮ヶ瀬ダムまで</a></li><li><a href=\"#ダム到着\">ダム到着</a></li><li><a href=\"#おわりに\">おわりに</a></li></ul>"}}]]}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"宮ヶ瀬探訪 - w477"}],["$","meta","3",{"name":"description","content":"宮ヶ瀬探訪 - w477"}],["$","link","4",{"rel":"icon","href":"$${basePath}/favicon.ico"}],["$","link","5",{"rel":"apple-touch-icon","href":"$${basePath}/apple-touch-icon.png"}]]
+1:null
