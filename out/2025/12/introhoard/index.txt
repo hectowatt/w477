@@ -1,0 +1,97 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","2025/12/introhoard","c"]
+0:["YS3zG4HqYV-ffDD8QD71G",[[["",{"children":[["slug","2025/12/introhoard","c"],{"children":["__PAGE__?{\"slug\":[\"2025\",\"12\",\"introhoard\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["slug","2025/12/introhoard","c"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/w477/_next/static/css/8b02746582b79b89.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"ja","className":"h-full","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/w477/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","href":"/w477/apple-touch-icon.png"}],["$","style",null,{"children":":root { --base-path: '/w477'; }"}],["$","meta",null,{"name":"google-site-verification","content":"HWHnOv44YHJ23JtvfwWQSQ83egNh3GvsAVcYHP5Ksf0"}],["$","meta",null,{"name":"description","content":"w477 Blog"}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","header",null,{"className":"text-black p-4 text-2xl border-b border-yellow","children":["$","div",null,{"className":"flex gap-4 items-center max-w-screen-lg mx-auto ","children":[["$","a",null,{"href":"https://hectowatt.github.io/w477/","rel":"noopener noreferrer","children":["$","img",null,{"src":"/w477/w477.png","alt":"w477 Blog Icon"}]}],["$","h1",null,{"children":"w477 Blog"}]]}]}],["$","div",null,{"className":"flex flex-grow max-w-screen-lg mx-auto px-4 gap-4","children":["$","main",null,{"className":"w-full lg:w-3/4 p-4 flex-grow","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}],["$","footer",null,{"style":{"backgroundColor":"var(--footer-bg)"},"className":"text-black p-4 mt-8","children":["$","div",null,{"className":"max-w-screen-lg mx-auto","children":[["$","p",null,{"children":"©w477 Powered by Next.js"}],["$","div",null,{"className":"flex gap-4","children":[["$","a",null,{"href":"https://misskey.io/@sublimesab","target":"_blank","rel":"noopener noreferrer","children":["$","img",null,{"src":"/w477/MisskeyIcon.png","alt":"Misskey","className":"hover:opacity-80 transition-opacity duration-300"}]}],["$","a",null,{"href":"https://github.com/hectowatt","target":"_blank","rel":"noopener noreferrer","children":["$","img",null,{"src":"/w477/github.png","alt":"Github","className":"hover:opacity-80 transition-opacity duration-300"}]}]]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+7:T2c98,<p>こんにちは</p>
+<p>w477です</p>
+<p>今回は私が個人開発しているメモアプリ、<a href="https://github.com/hectowatt/Hoard">Hoard</a>について紹介しようと思います。</p>
+<p>今年のはじめ頃から作業着手して今に至るまでちまちま開発してきましたが、やっと実用できるかなと言うレベルになったのでこのタイミングで紹介記事を書こうと思いました。</p>
+<h3 id="どんなアプリ？">どんなアプリ？</h3>
+<p>一言でいうと「Google Keepのいらない機能を削って欲しい機能を足したメモアプリ」です。</p>
+<p>いらない機能というのはGoogleドキュメントとの連携機能やリマインダー機能、共同編集機能などです。
+逆に追加したのはパスワードによるメモのロック機能とテーブル状のメモ（テーブルノートと呼んでいます）、メモデータのエクスポート・インポート機能です。</p>
+<p>特にパスワードや人に見られたくないメモを秘匿するためにパスワード機能は強く求めている機能でした。</p>
+<p>また、Hoardは不特定多数に公開するようなアプリではなく、セルフホストで一人利用が前提のアプリになります。</p>
+<h3 id="なんで作ったの？">なんで作ったの？</h3>
+<p>理由はいくつかあります。</p>
+<ol>
+<li>探した限りでメモ単位でのパスワードロック機能とマルチプラットフォーム（モバイル・デスクトップ問わず）対応しているメモアプリがなかったから</li>
+<li>Webアプリの学習をしたかったから</li>
+<li>OSSの個人開発に憧れていたから</li>
+<li>自宅の余っているPCを活用したい</li>
+</ol>
+<p>１について、アプリ自体には例えばiOSのFace IDなどでロックをかけることはできますが、メモ単位でロックをかけることができるアプリというのはメジャーなメモアプリだと数が多くありません。</p>
+<p>「このメモはロックしないけどこのメモはロックしたい」というケースが私にはよくあり、まずこの要件を満たしていることが大前提でした。</p>
+<p>Apple純正のiCloudメモはメモ単位でのロックができますが、TouchIDやFaceIDを使用してメモをロックした場合、Appleデバイス以外ではロックされたメモを表示できないという致命的な弱点があります。</p>
+<p>私はスマホはiPhoneを使用していますが、パソコンはMacBookとLinuxデスクトップの2台運用ですので、デスクトップを使っているときにメモを表示できませんので選択肢に入りませんでした。</p>
+<p>MicrosoftのOneNoteはメモごとのパスワードロックに対応していますが、機能が多すぎて画面がごちゃごちゃしているのがネックでした。</p>
+<p>次に2についてですが、現在の仕事ではWeb技術に触れる機会がほとんどなく、近年ではWebアプリが当たり前になっていますのでキャッチアップしておきたいという思いが強くありました。</p>
+<p>ReactやVueのチュートリアルやProgateでの講習など学ぶ場所はいくらでもありますが、その学んだ先に何か形に残せるものがないとモチベーションが続かないなーと思い、なかなか手が出せずにいました。</p>
+<p>3に関しては、個人開発で作られたMisskey（SNSの一つ）を使っていてオープンソースのアプリ開発に憧れをもっていたのもあり、勉強も兼ねて自分の作品を作りたいという思いで開発に着手しました。</p>
+<p>最後の4はおまけですが、世の中のWindowsサポートが切れてしまったPCってまだまだ使えるものが多いと思っていて、普段遣いは厳しいまでもセルフホストアプリのサーバなら余裕で担えるので、資源の有効活用ができるなーと思っています。</p>
+<h3 id="hoardの意味">Hoardの意味</h3>
+<p>Hoardというのは英語で「貯蔵」を意味する言葉です。</p>
+<p>森の動物が食料を木の洞に溜め込むようなイメージで、自分にとって必要なものを溜め込む場所にしたいという思いを込めてHoardと名付けました。</p>
+<p>ロゴも木の洞をモチーフにしています。（かわいいでしょ？）</p>
+<p><img src="/w477/images/2025/12/introhoard/Hoard_logo_colored.png" alt="Hoard"></p>
+<p>ちなみにアイコンやロゴはInkscapeというオープンソースのソフトで作成しました。</p>
+<h3 id="アプリの構成">アプリの構成</h3>
+<p>Hoardの構成は以下です。</p>
+<ul>
+<li>Docker（サービス基盤）</li>
+<li>PostgreSQL（DB）</li>
+<li>Redis（認証）</li>
+<li>Nginx（Webサーバ）</li>
+</ul>
+<p>また、フロントエンド、バックエンドともにTypeScriptで、フロントはNext.js、バックエンドはExpressを使用しています。</p>
+<h3 id="機能紹介">機能紹介</h3>
+<p>基本的にGoogle Keepと画面レイアウトは同じです。</p>
+<p>初回ログイン時にユーザ作成後、トップページへ遷移します。
+<img src="/w477/images/2025/12/introhoard/hoard_login.png" alt="ログイン画面"></p>
+<p>トップページには登録済みメモが並びます。
+Hoardでは通常メモはノート、テーブルを持つメモはテーブルノートと呼びます。
+<img src="/w477/images/2025/12/introhoard/toppage.png" alt="トップページ"></p>
+<p>テーブルノートは非選択時はテーブルのアイコンが付与されています。</p>
+<p>それぞれを選択すると編集や削除、パスワードによるロックやピン留めができます。
+ピン留めするとトップページの先頭に固定できます。
+<img src="/w477/images/2025/12/introhoard/noteselect.png" alt="ノート選択時"></p>
+<p>Google Keepではメモを選択後すぐに編集できますが、編集を保存せずに破棄するときにいちいち戻るボタンを押すのが面倒なので編集モードと閲覧モードを分けました。</p>
+<p>ノートにはラベルをつけることができます。
+ラベルをつけるとノートの下部にキャプションが付与されます。
+サイドバーの登録済みラベルを選択することで、そのラベルが付与されたノートに絞ることができます。</p>
+<p>ゴミ箱画面では削除したノートが完全に削除されるまでの間閲覧できます。
+<img src="/w477/images/2025/12/introhoard/trash.png" alt="ゴミ箱">
+Hoardではトップページで削除したノートはすぐに完全削除されず、ゴミ箱ページへ移動します。
+削除されてから7日が経過したあとに完全削除されますが、ゴミ箱ページですぐに完全削除することもできますし、復元することもできます。</p>
+<p>設定画面では言語の切り替え（日本語または米国英語）、ユーザ情報の変更、ノートパスワードの設定、データのエクスポート・インポートができます。
+<img src="/w477/images/2025/12/introhoard/setting.png" alt="設定画面">
+データのエクスポートは登録されているノート、テーブルノート、ラベルの情報をダウンロードしてバックアップできます。
+インポートはバックアップをもとにデータの復元ができます。</p>
+<p>その他、ダークモード・ライトモードの切り替えやフリーワード検索もできます。</p>
+<p>また、HoardはPWAに対応しているのでスマホではブラウザではなくPWAで開くとより便利に使用できます。</p>
+<h3 id="作ってみての感想">作ってみての感想</h3>
+<p>まず、楽しいですね。
+自分の好きな機能を実装できるし、誰にも気を使わず、時間に追われることもなく、自由に開発できるというのは仕事とは違って責任もないので完全に「趣味」だなと思います。</p>
+<p>作った理由の項で書いたように学習も一つの目的でしたが、仕事でもTypeScriptやNode.jsを使うことはほとんどなく、このブログ以外で使うのは初めてだったので生成AIに頼り切りでした。
+最近は、だんだん構文がなんとなくわかるようになってきて生成AIに聞かなくても修正ができるときが増えてきたので嬉しいですね。</p>
+<p>ただ、フルタイムで働きながらだと開発する時間の確保が難しいです。
+平日は帰宅後の時間と、昼休みにノートPCを持ち込んで開発を進めていますが、筆がノッてきた（？）ところで次のことをしなくてはならない時間になったりと集中して作業できる時間は限られています。
+まあ逆に考えればじっくり長期間開発を続けられるとも言えますね。（ポジティブ）</p>
+<p>あとは、本当はiOSやAndroidアプリ版もつくりたかったんですが、iOSだとApp Storeに公開する場合年間で1万円ほど払わなければならなかったり、App Storeに公開せずに自分のMacからiPhoneにダウンロードして使う場合でも7日間しか使えずに都度ダウンロードし直す必要があったりするので現状は着手できていません。
+個人開発者には不便な仕様ですね。</p>
+<p>Androidは普段使用していないので作るモチベーションがあまりありませんが、今後iPhoneからAndroidに乗り換えることがあれば前向きに検討するかもしれません。
+もしくはHoardを使っていただけるユーザが増えてきて要望が上がったら着手すると思います。</p>
+<p>余談ですが、私はHoardを実家で余っていたWindows11にアップグレードできないノートPC（2コア4スレッドでメモリ8GB）を持ってきてUbuntuを入れて動かしています。
+外出先でのスマホからの接続にはTailscaleを使用して、HTTPS化してPWAとしてダウンロードしています。</p>
+<p>同じノートPCでGoogle Photoの代替サービスとして知られるImmichも動かしていますが、快適に動作しています。</p>
+<h3 id="今後実装したい機能">今後実装したい機能</h3>
+<p>フロントのデザインにこだわりたいです。</p>
+<p>今だとGoogleのMUIというライブラリを採用しているのもあって、まんまGoogle Keepっぽいのでもうちょっとオリジナリティを出したいです。</p>
+<p>せっかくHoardという名前をつけたのでもう少し世界観を森とか動物に寄せたものにしたいなーとぼんやり思っています。</p>
+<h3 id="おわりに">おわりに</h3>
+<p>まだとりきれていないバグがたくさんあると思うので、今後も改修を続けていくつもりです。</p>
+<p>興味をもっていただけたらぜひ使っていただけると嬉しいです。（Githubからソースをダウンロードできます）</p>
+<p>ここまで読んでいただきありがとうございました！</p>
+2:["$","article",null,{"className":"prose lg:prose-xl mx-auto","children":[["$","h1",null,{"children":"【個人開発】メモアプリHoardの紹介"}],["$","p",null,{"className":"text-sm text-gray-500","children":"2025-12-20"}],["$","div",null,{"className":"toc","children":[["$","h2",null,{"children":"目次"}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<ul><li><a href=\"#どんなアプリ？\">どんなアプリ？</a></li><li><a href=\"#なんで作ったの？\">なんで作ったの？</a></li><li><a href=\"#hoardの意味\">Hoardの意味</a></li><li><a href=\"#アプリの構成\">アプリの構成</a></li><li><a href=\"#機能紹介\">機能紹介</a></li><li><a href=\"#作ってみての感想\">作ってみての感想</a></li><li><a href=\"#今後実装したい機能\">今後実装したい機能</a></li><li><a href=\"#おわりに\">おわりに</a></li></ul>"}}]]}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"【個人開発】メモアプリHoardの紹介 - w477"}],["$","meta","3",{"name":"description","content":"【個人開発】メモアプリHoardの紹介 - w477"}],["$","link","4",{"rel":"icon","href":"$${basePath}/favicon.ico"}],["$","link","5",{"rel":"apple-touch-icon","href":"$${basePath}/apple-touch-icon.png"}]]
+1:null
