@@ -48,15 +48,70 @@ export default function RootLayout({ children }: LayoutProps) {
 
 function Header() {
   return (
-    <header className="text-black p-4 text-2xl border-b border-yellow">
+    <header style={{ backgroundColor: "var(--header-bg)" }} className="text-black p-4 text-2xl border-b border-yellow">
       <div className="flex gap-4 items-center max-w-screen-lg mx-auto ">
-        <a
-          href="https://hectowatt.github.io/w477/"
-          rel="noopener noreferrer"
-        >
-          <img src={`${basePath}/w477.png`} alt="w477 Blog Icon"></img>
-        </a>
-        <h1>w477 Blog</h1>
+        {process.env.NODE_ENV === "production" ? (
+          <a
+            href="https://hectowatt.github.io/w477/"
+            rel="noopener noreferrer"
+          >
+            <img src={`${basePath}/w477.png`} alt="w477 Blog Icon"></img>
+          </a>
+        ) : (
+          <a
+            href="http://localhost:3000"
+            rel="noopener noreferrer"
+          >
+            <img src={`${basePath}/w477.png`} alt="w477 Blog Icon"></img>
+          </a>)
+        }
+        <h1>w477 Site</h1>
+        <nav className="ml-auto">
+          {process.env.NODE_ENV === "production" ? (
+            <div>
+              <a
+                href="https://hectowatt.github.io/w477/"
+                className="mr-4 hover:underline"
+              >
+                Home
+              </a>
+              <a
+                href="https://hectowatt.github.io/w477/about"
+                className="mr-4 hover:underline"
+              >
+                About
+              </a>
+              <a
+                href="https://hectowatt.github.io/w477/blog"
+                className="mr-4 hover:underline"
+              >
+                Blog
+              </a>
+            </div>
+          ) : (
+            <div>
+              <a
+                href="http://localhost:3000"
+                className="mr-4 hover:underline"
+              >
+                Home
+              </a>
+              <a
+                href="http://localhost:3000/about"
+                className="mr-4 hover:underline"
+              >
+                About
+              </a>
+              <a
+                href="http://localhost:3000/blog"
+                className="mr-4 hover:underline"
+              >
+                Blog
+              </a>
+            </div>
+          )
+          }
+        </nav>
       </div>
     </header>
   );

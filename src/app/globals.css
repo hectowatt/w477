@@ -8,6 +8,7 @@
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --header-bg: #fffacd;
   --footer-bg: #fffacd;
 }
 
@@ -27,7 +28,8 @@
 }
 
 body {
-  background-color: #ffffe0; /* クリーム色 */
+  background-color: #ffffe0;
+  /* クリーム色 */
   font-family: 'Inter', sans-serif;
 }
 
@@ -40,7 +42,8 @@ body {
 }
 
 .toc h2 {
-  color: inherit; /* 親要素の色を継承 */
+  color: inherit;
+  /* 親要素の色を継承 */
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
   font-weight: bold;
