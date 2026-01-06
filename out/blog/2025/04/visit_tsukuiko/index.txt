@@ -1,0 +1,87 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+4:["slug","2025/04/visit_tsukuiko","c"]
+0:["6cNsSKHgXRpfLJEA2g8gh",[[["",{"children":["blog",{"children":[["slug","2025/04/visit_tsukuiko","c"],{"children":["__PAGE__?{\"slug\":[\"2025\",\"04\",\"visit_tsukuiko\"]}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["slug","2025/04/visit_tsukuiko","c"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/w477/_next/static/css/b6456c1b4f6e34e6.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"ja","className":"h-full","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/w477/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","href":"/w477/apple-touch-icon.png"}],["$","style",null,{"children":":root { --base-path: '/w477'; }"}],["$","meta",null,{"name":"google-site-verification","content":"HWHnOv44YHJ23JtvfwWQSQ83egNh3GvsAVcYHP5Ksf0"}],["$","meta",null,{"name":"description","content":"w477 Blog"}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","header",null,{"style":{"backgroundColor":"var(--header-bg)"},"className":"text-black p-4 border-b border-yellow","children":["$","div",null,{"className":"flex gap-4 items-center max-w-screen-lg mx-auto ","children":[["$","a",null,{"href":"https://hectowatt.github.io/w477/","rel":"noopener noreferrer","children":["$","img",null,{"src":"/w477/w477.png","alt":"w477 Blog Icon"}]}],["$","h1",null,{"children":"w477 Site"}],["$","nav",null,{"className":"ml-auto","children":["$","div",null,{"children":[["$","a",null,{"href":"https://hectowatt.github.io/w477/","className":"mr-4 hover:underline","children":"Home"}],["$","a",null,{"href":"https://hectowatt.github.io/w477/about","className":"mr-4 hover:underline","children":"About"}],["$","a",null,{"href":"https://hectowatt.github.io/w477/blog","className":"mr-4 hover:underline","children":"Blog"}]]}]}]]}]}],["$","div",null,{"className":"flex-grow w-full max-w-screen-lg mx-auto px-4","children":["$","main",null,{"className":"w-full p-4 min-w-0","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}],["$","footer",null,{"style":{"backgroundColor":"var(--footer-bg)"},"className":"text-black p-4 mt-8","children":["$","div",null,{"className":"max-w-screen-lg mx-auto","children":[["$","p",null,{"children":"©w477 Powered by Next.js"}],["$","div",null,{"className":"flex gap-4","children":[["$","a",null,{"href":"https://misskey.io/@sublimesab","target":"_blank","rel":"noopener noreferrer","children":["$","img",null,{"src":"/w477/MisskeyIcon.png","alt":"Misskey","className":"hover:opacity-80 transition-opacity duration-300"}]}],["$","a",null,{"href":"https://github.com/hectowatt","target":"_blank","rel":"noopener noreferrer","children":["$","img",null,{"src":"/w477/github.png","alt":"Github","className":"hover:opacity-80 transition-opacity duration-300"}]}]]}]]}]}]]}]]}]],null],null],["$L6",null]]]]
+7:T1ec7,<p>こんにちは</p>
+<p>w477です</p>
+<p>今回は<a href="https://www.pref.kanagawa.jp/docs/vh6/cnt/f8018/1015.html">神奈川県東部の主な水源の一つである</a>津久井湖へ行ってきたレポです。</p>
+<p>実は訪れたのは数ヶ月前なのですが、記事にするのが遅くなってしまいました。</p>
+<h3 id="きっかけ">きっかけ</h3>
+<p>まず、実際に訪れるまで津久井湖自体知りませんでした。
+それに加えて津久井湖は関東でもそれほど知名度があるわけではなく（？）、なんでそんなところに行ったんだと思われるでしょう。</p>
+<p>きっかけは同じく県内の水源として名を馳せる相模湖へ行ったことでした。
+<img src="/w477/images/2025/04/visit_tsukuiko/sagamiko.JPG" alt="相模湖"></p>
+<p>相模湖へ行ったのは、相模湖が人造湖であるということを知って興味が湧いたからなのですが、湖と山のコントラストが思ったよりもきれいだし、静かで快適だったので、ぜひ他の湖も見てみたいなと思い、県内の主要な湖を制覇したいと思ったことがきっかけです。</p>
+<h3 id="行き先の候補">行き先の候補</h3>
+<p>主要な湖としては相模湖、津久井湖、宮ヶ瀬湖、丹沢湖があります。そのうち相模湖は訪問済みなので残りは３つ。
+丹沢湖は山中にあり到着難易度が高いため、残りの２候補のうち津久井湖へ今回は行くことにしました。</p>
+<h3 id="道中">道中</h3>
+<p>津久井湖にはJR横浜線/JR相模線/京王相模原線の橋本駅から神奈川中央交通バス（通称：神奈中バス）に乗り、津久井湖観光センター前で降りると行くことができます。
+ちょうど昼前に橋本駅に着いたので駅前のラーメン屋で昼食を済ませました。
+<img src="/w477/images/2025/04/visit_tsukuiko/tsukuiko_ramen.JPG" alt="地鶏と蟹 中華そば 榊">
+特に下調べもしていなかったので評判も知りませんでしたが、特にチャーシューが美味しかったです。</p>
+<h3 id="到着">到着</h3>
+<p>橋本駅北口からバスに乗り２０分ほど揺られると到着です。
+<img src="/w477/images/2025/04/visit_tsukuiko/tsukuiko_kanko_center.JPG" alt="津久井湖観光センター">
+観光センター周りは小さな公園と駐車場がありました。</p>
+<p>そして城山ダムですね。
+<img src="/w477/images/2025/04/visit_tsukuiko/shiroyamadamu.JPG" alt="城山ダム"></p>
+<p>ダムの上は普通の道路になっていて、駅からのバスはここを通って更に先へ運行しています。
+<img src="/w477/images/2025/04/visit_tsukuiko/shiroyamadamu2.JPG" alt="ダムの上"></p>
+<p>相模湖は湖のそばに大きな公園がありましたが、津久井湖の観光センターそばの公園に関しては小規模でした。
+ただ、津久井湖は湖の隣が津久井城跡となっていて山登りをしたり山沿いの遊歩道を歩けたりするようです。</p>
+<p>せっかくなので歩いてみました。</p>
+<h3 id="山登り">山登り</h3>
+<p>観光センターの上にこんな道があり、道路を渡ることで城山へ行くことができます。
+<img src="/w477/images/2025/04/visit_tsukuiko/shiroyamairiguti.JPG" alt="津久井城跡へ続く道"></p>
+<p><img src="/w477/images/2025/04/visit_tsukuiko/yuuhodou.JPG" alt="城山沿いの遊歩道">
+城山へ渡った直後はこんな遊歩道が続いています。
+私は土日に行ったのですが寒かったからか人も多くなく快適に歩けました。
+右側に津久井湖とバスが通る道路を見下ろしながらゆったり歩く時間が好きですね。</p>
+<p>この遊歩道は少しずつ山の中腹へ上っており、途中で津久井湖と周辺の住宅を見下ろせました。
+<img src="/w477/images/2025/04/visit_tsukuiko/tsukuikotojyuutaku.JPG" alt="津久井湖と周辺住宅"></p>
+<p>更に進むと小さな公園があり、その先から山登り開始です。
+<img src="/w477/images/2025/04/visit_tsukuiko/tozankaishi.JPG" alt="登山開始"></p>
+<p>山登りといっても途中までは舗装された道路が広がっていて、普通のスニーカーでも難なく登れます。
+途中で右側に本格的な山道が現れ、城山を登るかそのまま山沿いを歩くか選べます。
+このときスニーカーを履いていましたが、ここまで来たら登ってみたくなりました。
+<img src="/w477/images/2025/04/visit_tsukuiko/kendou.JPG" alt="険道を選ぶ"></p>
+<p>私の前に夫婦がこの険道を歩き始めましたが女性の方は大変そうでした。</p>
+<p>登り始めて５分くらいすると男坂か女坂かすきな道を選ぶことができます。
+<img src="/w477/images/2025/04/visit_tsukuiko/bunki.JPG" alt="男坂か女坂か選べる"></p>
+<p>今回は男坂を選択。
+<img src="/w477/images/2025/04/visit_tsukuiko/otokosaka.JPG" alt="男坂">
+こんな感じで険しいですが、若い方なら余裕で登れるでしょう。
+ただ、滑りやすかったのでスニーカーはあまりおすすめしません。</p>
+<p>10分ほど登ると山頂へ行くか見晴台へ行くか選ぶことができます。
+<img src="/w477/images/2025/04/visit_tsukuiko/bunki2.JPG" alt="山頂か見晴台か選べる">
+左に進むと見晴台、右に進むと頂上です。</p>
+<p>まずは左へ</p>
+<p><img src="/w477/images/2025/04/visit_tsukuiko/setumei.JPG" alt="津久井は昔築井だった？">
+見晴台の近くに津久井城の説明書きがありました。
+昔は「津久井」ではなく「築井」だったのでしょうか。相模原市の指定有形文化財になっているようです。</p>
+<p><img src="/w477/images/2025/04/visit_tsukuiko/miharashi.JPG" alt="よい見晴らし">
+見晴台からはとてもいい景色が見れました。
+夏だとより濃い緑になった山が見れるでしょうが、冬で常緑樹と枯れた白い木が入り混じっているこの色合いも好きですね。</p>
+<p>青空と湖の少し緑っぽい青と合わさって落ち着きます。</p>
+<p>途中一緒になった高齢の登山客集団はここで楽しそうに集合写真を撮っていました。</p>
+<p>先程左に来た分岐を戻り、今度は右へ</p>
+<p>小さな社がありました。
+<img src="/w477/images/2025/04/visit_tsukuiko/torii.JPG" alt="鳥居">
+<img src="/w477/images/2025/04/visit_tsukuiko/yashiro.JPG" alt="社"></p>
+<p>その奥には周囲の木々が晴れた広場があります。
+<img src="/w477/images/2025/04/visit_tsukuiko/santyou1.JPG" alt="採石場"></p>
+<p>右側に見える削られた山はどうやら採石場？のようです。（香ノ田採石場）</p>
+<p>山の奥には川崎や横浜の町並みが見えますね。
+<img src="/w477/images/2025/04/visit_tsukuiko/santyou2.JPG" alt="遠くの町並み"></p>
+<p>津久井城は城の原型はなく、山だけが残っているようでした。</p>
+<h3 id="おわりに">おわりに</h3>
+<p>津久井湖の景色もさることながら、個人的には城山沿いの遊歩道の雰囲気がとても好みでした。</p>
+<p>今回は冬でしたので、今度は春や夏の津久井湖も見てみたいですね。</p>
+<p>登山難易度も低く、高尾山や筑波山を登ったことがある方なら余裕で山頂まで行けるでしょう。</p>
+<p>ただ、津久井湖周辺はあまり腹ごしらえする場所がないようでしたので、今後行かれるかたは山登りしやすい靴を用意して、橋本駅周辺で食事を済ませたほうが
+いいかもです。</p>
+<p>以上、津久井湖レポでした。</p>
+2:["$","article",null,{"className":"prose lg:prose-xl mx-auto","children":[["$","h1",null,{"children":"津久井湖へ行ってきた"}],["$","p",null,{"className":"text-sm text-gray-500","children":"2025-04-12"}],["$","div",null,{"className":"toc","children":[["$","h2",null,{"children":"目次"}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"<ul><li><a href=\"#きっかけ\">きっかけ</a></li><li><a href=\"#行き先の候補\">行き先の候補</a></li><li><a href=\"#道中\">道中</a></li><li><a href=\"#到着\">到着</a></li><li><a href=\"#山登り\">山登り</a></li><li><a href=\"#おわりに\">おわりに</a></li></ul>"}}]]}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}]]}]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"津久井湖へ行ってきた - w477"}],["$","meta","3",{"name":"description","content":"津久井湖へ行ってきた - w477"}],["$","link","4",{"rel":"icon","href":"$${basePath}/favicon.ico"}],["$","link","5",{"rel":"apple-touch-icon","href":"$${basePath}/apple-touch-icon.png"}]]
+1:null

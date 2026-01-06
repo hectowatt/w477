@@ -26,8 +26,6 @@ const config: Config = {
             h1: {
               color: theme('colors.gray.600'),
               fontWeight: 'bold',
-              borderBottom: `10px solid ${theme('colors.gray.600')}`,
-              borderTop: `10px solid ${theme('colors.gray.600')}`,
               padding: '0.5rem 0'
             },
             h2: {
