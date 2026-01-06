@@ -59,9 +59,9 @@ function getSortedPosts(): PostData[] {
 export async function generateStaticParams() {
     const allPosts = getSortedPosts();
     const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
-    return Array.from({ length: totalPages }, (_, i) => (
+    return Array.from({ length: totalPages - 1 }, (_, i) => (
         {
-            page: [String(i + 1)],
+            page: [(i + 2).toString()],
         }
     ));
 }
