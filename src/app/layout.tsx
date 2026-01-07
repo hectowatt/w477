@@ -47,7 +47,7 @@ export default function RootLayout({ children }: LayoutProps) {
 
 function Header() {
   return (
-    <header style={{ backgroundColor: "var(--header-bg)" }} className="text-black p-4 border-b border-yellow">
+    <header className="text-black p-4">
       <div className="flex gap-4 items-center max-w-screen-lg mx-auto ">
         {process.env.NODE_ENV === "production" ? (
           <a
