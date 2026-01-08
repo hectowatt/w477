@@ -48,7 +48,7 @@ export default function RootLayout({ children }: LayoutProps) {
 function Header() {
   return (
     <header className="text-black p-4">
-      <div className="flex gap-4 items-center max-w-screen-lg mx-auto ">
+      <div className="flex gap-1 items-center max-w-screen-lg mx-auto ">
         {process.env.NODE_ENV === "production" ? (
           <a
             href="https://hectowatt.github.io/w477/"
@@ -64,7 +64,7 @@ function Header() {
             <img src={`${basePath}/w477.png`} alt="w477 Blog Icon"></img>
           </a>)
         }
-        <h1>w477 Site</h1>
+        <h1 className="font-bold">w477 Site</h1>
         <nav className="ml-auto">
           {process.env.NODE_ENV === "production" ? (
             <div>
